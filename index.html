@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Oviedo Saborío - Portafolio en Construcción</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: white;
+            margin: 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .title {
+            font-size: 2em;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            z-index: 2;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            z-index: 2;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .language-section {
+            flex: 1;
+            padding: 10px;
+            border-right: 2px solid #ccc;
+        }
+        .language-section:last-child {
+            border-right: none;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        .background-elements {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            z-index: 1;
+        }
+        .circle, .icon {
+            position: absolute;
+            opacity: 0.4;
+        }
+        .circle {
+            border-radius: 50%;
+        }
+        .circle:nth-child(1) {
+            width: 150px;
+            height: 150px;
+            background: #6a5acd;
+            top: 10%;
+            left: 15%;
+        }
+        .circle:nth-child(2) {
+            width: 200px;
+            height: 200px;
+            background: #4682b4;
+            bottom: 10%;
+            right: 20%;
+        }
+        .circle:nth-child(3) {
+            width: 180px;
+            height: 180px;
+            background: #9370db;
+            top: 50%;
+            left: 70%;
+        }
+        .circle:nth-child(4) {
+            width: 120px;
+            height: 120px;
+            background: #4169e1;
+            bottom: 30%;
+            left: 10%;
+        }
+        .icon {
+            font-size: 50px;
+            color: rgba(0, 0, 0, 0.3);
+        }
+        .icon:nth-child(5) {
+            content: '\270E'; /* Pencil icon */
+            top: 20%;
+            right: 10%;
+        }
+        .icon:nth-child(6) {
+            content: '\1F4BB'; /* Laptop icon */
+            bottom: 20%;
+            left: 20%;
+        }
+        .icon:nth-child(7) {
+            content: '\1F4C8'; /* Graph icon */
+            top: 40%;
+            right: 30%;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .language-section {
+                border-right: none;
+                border-bottom: 2px solid #ccc;
+                width: 100%;
+                text-align: center;
+            }
+            .language-section:last-child {
+                border-bottom: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-elements">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="icon">✎</div>
+        <div class="icon">💻</div>
+        <div class="icon">📈</div>
+    </div>
+    <h1 class="title">Jorge Oviedo Saborío</h1>
+    <div class="container">
+        <div class="language-section">
+            <h2>Portafolio en Construcción</h2>
+            <p>¡Pronto estará disponible!</p>
+        </div>
+        <div class="language-section">
+            <h2>Portfolio Under Construction</h2>
+            <p>Coming Soon!</p>
+        </div>
+    </div>
+</body>
+</html>
