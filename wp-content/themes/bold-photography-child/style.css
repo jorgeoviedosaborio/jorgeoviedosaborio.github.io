@@ -1,0 +1,52 @@
+/*
+Theme Name: Bold Photography Child Theme
+Theme URI: https://www.telmplate.co.il
+Author: https://www.template.co.il
+Author URI: https://www.template.co.il
+Description: Free Bold Photography Child theme, created by www.template.co.il, will help you to do Safe updates, Extend your Bold Photography template, by wordpress codex guideline.
+Template: bold-photography
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0.0
+Text Domain: bold-photography-child
+*/
+
+.section-content-wrapper .post-thumbnail {
+    margin: 0 0 15px;
+}
+
+.view-more-portfolio {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .owl-carousel.main-slider {
+        margin-top: 90px;
+    }
+    #feature-slider-section .hentry-inner {
+        min-height: 20px;
+        padding: 190px 20px 20px;
+    }
+
+    #feature-slider-section .hentry-inner h2 {
+        font-size: 1em;
+    }
+    #feature-slider-section .post-thumbnail img {
+        min-height: 0;
+        height: auto;
+    }
+    #feature-slider-section .owl-nav {
+        right: 0px;
+        bottom: 8px;
+    }
+    #feature-slider-section .owl-dots {
+        right: 0;
+        top: 32%;
+    }
+    #feature-slider-section .owl-prev .icon,
+    #feature-slider-section .owl-next .icon {
+        width: 28px;
+        height: 28px;
+    }
+}
