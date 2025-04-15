@@ -66,7 +66,7 @@ a:active {
  */
 .wp-block-search__button,
 .wp-block-file .wp-block-file__button {
-  background-color: var(--wp--preset--color--primary);
+  background-color: #151515;
   border-radius: 0;
   border: none;
   color: var(--wp--preset--color--background);
